@@ -1,15 +1,25 @@
 {
-  "name": "week_12_app",
+  "name": "bamazon_app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "andy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahp2604/Bamazon.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^5.2.0",
-    "mysql": "^2.15.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ahp2604/Bamazon/issues"
+  },
+  "homepage": "https://github.com/ahp2604/Bamazon#readme"
 }
